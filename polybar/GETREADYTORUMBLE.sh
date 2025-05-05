@@ -8,8 +8,8 @@ sleep 0.2; done
 
 # Launch bar1 and bar2
 polybar -c ~/.config/polybar/config.ini bar1 &
-polybar -c ~/.config/polybar/config.ini bar2 &
-polybar -c ~/.config/polybar/config.ini bar3 &
-polybar -c ~/.config/polybar/config.ini bar4 &
+#polybar -c ~/.config/polybar/config.ini bar2 &
+#polybar -c ~/.config/polybar/config.ini bar3 &
+#polybar -c ~/.config/polybar/config.ini bar4 &
 echo "Bars launched..."
 disown
